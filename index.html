@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script>
-        var data ='{"students": {"0": {"studentid": 101,"firstname": "John","lastname": "Doe","classes": ["Business Research","Economics","Finance"]}, "1": {"studentid": 102,"firstname": "Jane","lastname": "Dane","class": ["Marketing","Economics","Finance"]}}}';
-        var info = JSON.parse(data);
-        console.log(info["students"][0]);
-    </script>
+    <meta charset="utf-8" />
+    <title>JavaScript And JSON</title>
 </head>
 <body>
-
+<script>
+    var info = {
+        "full_name" : "Maarten von Kreijfelt",
+        "title" : "Webdeveoper",
+        "links" : [
+            { "blog"     : "http://iviewsource.com" },
+            { "facebook" : "http://facebook.com" },
+            { "youtube"  : "http://www.youtube.com" },
+            { "podcast"  : "http://feeds.feedburner.com" },
+            { "twitter"  : "http://twitter.com" }
+        ]
+    };
+</script>
 </body>
 </html>
